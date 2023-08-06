@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    color: #111010;
+  }
+.legend, .legend-background{
+    fill:#ffffffcc;
+}
+.tooltip2{
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    color: #111010;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000de;
+    color: #fff;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    fill: #ffffffcc; 
+}
+
+.section {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fafafa;
+    min-height: 100vh;
+    
+}
+
+.center_plot1 {
+    display: flex;
+    margin: 0 auto;
+    color: #ffffffcc;
+    
+}
+
+
+
+
+.scroll-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffffcc;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    position: fixed;
+    text-align: center;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-button:hover {
+    background-color: #ffffff9c;
+}
+
+#plot_0{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+

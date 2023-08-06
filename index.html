@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Divvy Rideshare Analysis Trends in the City of Chicago</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload=project()>
+    <div class="container">
+        <div class="section">
+            <h2>Divvy Rideshare Analysis Trends in the City of Chicago</h2>
+            <p>Rideshare vehicles is already a common method of transportation in most major cities, but Divvy has redefined the concept of ride-sharing through the introduction of compact personal vehicles. Here is the breakdown of the following trends regarding Chicago rideshare data in the month of March 2022.</p>
+            <br> </br> 
+            <p>Introducing the data, some basic introductary statistics are as follows:
+                <br> </br>
+                The most popular station was: Streeter Dr & Grand Ave
+                <br> </br>
+                The most popular day to commute was Wednesdays.
+                Classic Bike's tend to be the most commonly used method of transportation.
+                <br> </br>
+                The 5th of March 2022 was the day with the highest amount of traffic, which happened to fall on a Saturday.
+                
+            </p>
+            
+                <div id="0ndplot"></div>
+                <div id="plot_0" class="center_plot0"></div>
+                <br> </br>
+                <p>
+                    The 5th of March 2022 was the day with the highest amount of traffic, which happened to fall on a Saturday. 
+                    Mid-month produced the greatest amount of ride-sharing. It is interesting to note that there are enormous spikes on certain days
+                    compared to others. 
+                </p>
+            
+        </div>
+            <div class="section">
+            <p>Below is a network graph of stations and their corresponding traffic between stations. 
+                The intensity of traffic between stations is signified by the color of the line and the intensity of traffic incoming per station is signified by the size of the station node. 
+                Below the graph, there are sliders that filter nodes/links based on the intensity of traffic. </p>
+            <div id="searchbar"></div>
+            <div id="1stplot"></div>
+            <p>Chicago Incoming/Outgoing Traffic Map</p>
+            <div id="plot_1" class="center_plot1"></div>
+        </div>
+            <div class="section">
+            <p>Click on a station to highlight traffic with other stations if available.</p>
+            <div id="legend"></div>
+            
+            <label for="node-threshold">Node threshold:</label>
+            <input type="range" id="node-threshold" min="0" max="1500" step="10" value="1">
+            <br>
+            <label for="link-threshold">Link threshold:</label>
+            <input type="range" id="link-threshold" min="0" max="200" step="5" value="50">
+            <br> </br>
+            <br> </br>
+           <p>The most popular station was: Streeter Dr & Grand Ave. However, Ellis Ave. 55th Street - 60th Street at the greatest traffic inbetween any two stations. In fact, the traffic is so high at these two stations that it suggests that this is a major hub for transportation, perhaps situated in a very highly trafficked district. The highest concentration of ride-sharing
+            was mostly on the north-east side of Chicago, with a small pocket near Ellis Ave, perhaps suggesting that most of the ride-sharing is done downtown. Divvy's service also
+        extends past the Chicago region, demonstrated by stations north of the city limits. </p>
+       <br> </br>
+       <br> </br>
+            
+        </div>
+        
+
+        <div class="section">
+            <div id="2ndplot"></div>
+            <div id="plot_2" class="center_plot2"></div>
+            <br> </br>
+            
+
+            
+           <p>Amongst those who are members, Classic bikes tend to be the most highly used form of ride-sharing, especially on Wednesdays. Electric bikes tend to follow 
+               a similar trend, perhaps suggesting that members are mostly people who use this service to commute. Docked bikes appear to not exist as an option for members.
+               These observations  changes when looking at casual riders. While classic bikes still tend to be the dominant form of ride-sharing and there is a spike on Wednesdays still,
+               the weekend tends to have far more riders. It is interesting to note that most users tend to be members, rather then casuals. </p>
+       <br> </br>
+       <br> </br>
+
+        
+            <h3></h3>
+            <p>
+                We hope these visualizations have perhaps encouraged you to adopt Divvy as a viable ride-sharing service in the city of Chicago, and perhaps in your own city should Divvy expand there. </p>
+        </div>
+        <button class="scroll-button">Scroll to next section</button>
+    </div>
+</body>
+</html>
