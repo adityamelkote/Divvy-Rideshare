@@ -11,8 +11,8 @@ Visualizes rideshare data gleaned from Divvy's trip data regarding trip frequenc
 
 Narrative structure utilized is Martini Glass.
 ## Languages / Libraries
-Utilizes D3.js for visulizations as well as HTML and CSS for the corresponding webpage.
+Utilizes D3.js for visualizations as well as HTML and CSS for the corresponding webpage.
 
 ## Installation / Usability
 
-Requires Visual Studio Code and the Live Server extension. Once the repository files are downloaded and VSCode is installed, left click on index.html and press run as a live server to access the webpage with the visulizations.
+Requires Visual Studio Code and the Live Server extension. Once the repository files are downloaded and VSCode is installed, left click on index.html and press run as a live server to access the webpage with the visualizations.
