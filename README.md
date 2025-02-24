@@ -4,7 +4,7 @@
 https://www.kaggle.com/datasets/lailahasan/case-study-raw-data?select=202203-divvy-tripdata.csv
 
 ## Purpose
-Deliver is the breakdown of the trends and patterns in bike rideshare usage, to identify which time and bike
+Delivers the breakdown of the trends and patterns in bike rideshare usage, to identify which time and bike
 type from which station is the most optimal selection for users.
 
 Visualizes rideshare data gleaned from Divvy's trip data regarding trip frequency, peak rideshare times, station traffic, traffic between stations and geolocation of stations. 
